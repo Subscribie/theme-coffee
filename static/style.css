@@ -1,0 +1,77 @@
+body {
+    background: url(/static/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.lead-homepage h1 {
+    font-size: 2.5em;
+    margin-bottom: 0px;
+}
+
+.lead-homepage h2 {
+    font-size: 3em;
+    margin: 0px;
+}
+
+.lead-homepage p {
+    font-size: 1.35em;
+}
+
+nav {
+    justify-content: flex-end;
+}
+
+nav a, nav a:visited {
+    text-decoration: none;
+    color: white;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+nav a.active {
+    border-bottom: 3px solid white;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
+.lead-homepage {
+    display: block;
+    width: 425px;
+    text-align: center;
+    margin-top: 25vh;
+    color: white;
+}
+
+.btn {
+    background: #ff2929;
+    border: 2px solid #ff2929;
+    width: 120px;
+    display: block;
+    text-align: center;
+    padding: 5px 0px;
+    color: white;
+    text-decoration: none;
+    float: left;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.btn-secondary {
+    background: none;
+    border: 2px solid #ffffffd4;
+    font-weight: bold;
+}
+

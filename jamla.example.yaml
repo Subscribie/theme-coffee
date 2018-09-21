@@ -1,0 +1,72 @@
+company:
+  logo: logo.svg
+  name: Artisan Coffee
+  slogan: Slow Roasted, delivered monthly
+  start_image: start.svg
+integrations:
+  google_tag_manager:
+    active: true
+    container_id: 
+  tawk:
+    active: false
+    property_id: 
+items:
+- icons:
+  - size: 48x48
+    src: images/item3148.png
+    type: image/png
+  - size: 192x192
+    src: images/item3192.png
+    type: image/png
+  monthly_price: 0
+  primary_colour: '#e73b1a'
+  primary_icon:
+    src: /static/readytogo.png
+    type: ''
+  requirements:
+    customer_address: true
+    customer_contact_details_required: true
+    instant_payment: false
+    subscription: false
+  sell_price: 0
+  selling_points:
+  - Hand roasted
+  - Perfect cup every time
+  - No minimum term
+  sku: readyToGo
+  subscription: true
+  subscription_terms:
+  - minimum_term_months: 0
+  title: Ready To Go!
+modules:
+modules_path:
+pages:
+- terms:
+    path: terms
+    template_file: terms.html
+payment_providers:
+  gocardless:
+    access_token: fds
+    environment: sandbox
+    instant_payment_supported: true
+    sepa_direct_supported: false
+    subscription_supported: true
+    variable_payments_supported: true
+  paypal:
+    instant_payment_supported: true
+    sepa_direct_supported: false
+    subscription_supported: true
+    variable_payments_supported: false
+  stripe:
+    instant_payment_supported: true
+    publishable_key: gg
+    secret_key: gg
+    sepa_direct_supported: false
+    subscription_supported: true
+    variable_payments_supported: false
+theme:
+  name: /path/to/theme-coffee/coffee/
+  static_folder: /path/to/theme-coffee/static/
+users:
+- jon@example.com
+version: 1
