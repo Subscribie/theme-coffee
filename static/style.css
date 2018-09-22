@@ -1,9 +1,13 @@
 body {
-    background: url(/static/coffee.jpg);
+    background: url(/static/splash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 15px;
 }
 
 .flex {
@@ -30,6 +34,7 @@ body {
 
 nav {
     justify-content: flex-end;
+    margin-bottom: 15px;
 }
 
 nav a, nav a:visited {
@@ -43,6 +48,23 @@ nav a.active {
     border-bottom: 3px solid white;
 }
 
+.form-group { 
+    margin-bottom: 15px;
+} 
+
+.form-control { 
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;       
+}
+
 .margin-left-auto {
     margin-left: auto;
 }
@@ -53,6 +75,7 @@ nav a.active {
     text-align: center;
     margin-top: 25vh;
     color: white;
+    margin-bottom: 25px;
 }
 
 .btn {
@@ -64,7 +87,6 @@ nav a.active {
     padding: 5px 0px;
     color: white;
     text-decoration: none;
-    float: left;
     margin-right: 5px;
     border-radius: 2px;
 }
@@ -75,3 +97,13 @@ nav a.active {
     font-weight: bold;
 }
 
+.plan { 
+    border: 4px solid #000000a6;
+    padding: 10px;
+    margin: 15px 20px 15px 15px;
+}
+
+.background-white { 
+    background: #ffffffd6;
+    color: #000;
+}

@@ -26,8 +26,8 @@ items:
   requirements:
     customer_address: true
     customer_contact_details_required: true
-    instant_payment: false
-    subscription: false
+    instant_payment: true
+    subscription: true
   sell_price: 0
   selling_points:
   - Hand roasted
@@ -65,8 +65,8 @@ payment_providers:
     subscription_supported: true
     variable_payments_supported: false
 theme:
-  name: /path/to/theme-coffee/coffee/
-  static_folder: /path/to/theme-coffee/static/
+  name: /path/to/or-name/theme-coffee/coffee/
+  static_folder: /path/to/static/
 users:
 - jon@example.com
 version: 1
